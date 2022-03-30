@@ -1,1 +1,9 @@
 # notebook
+
+install jetpack via SDK manager: https://blog.csdn.net/weixin_42622181/article/details/107217994
+
+install CPPAD and IPOPT solver: https://blog.actorsfit.com/a?ID=01750-54c29171-dce7-4d58-8d95-41ca6367d5dc
+
+how to stabilize the postion of target person(avoiding mismatch):
+K_mean for 1-D depth information:   https://gist.github.com/lobrien/0f95b690644a862fb4dadb73afb7753b
+
