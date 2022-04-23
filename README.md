@@ -18,3 +18,13 @@ we only have terms of input(velocity and angular velocity) in our objective func
 introduce APF in objective function is difficult because we do not have terms of states(transformation is necessary):
    1.traditional repulsive function is not suitable:   pow( 1/distance - 1/detected_range), value if obj function changes too quick.
 
+
+
+
+
+
+
+For uncertainty:
+ 1. Hard for me to understand the whole content in paper and literature, there is too much content about statistics, which im not very good at, I may need to spend more     time on it .
+ 2. In the paper, the data is applied to estimate safety, whose order of magnitudes is 10e-6, We do not need that high accuracy for person tracking.In another word, the application of uncertainty may not have much influence on my algorithm, and it's negligible.
+ 3. In the paer, it's based on the conservation of conditions .For instance the distance between human joints are constant. we do not have such reference.  
