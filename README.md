@@ -17,7 +17,9 @@ we only have terms of input(velocity and angular velocity) in our objective func
 
 introduce APF in objective function is difficult because we do not have terms of states(transformation is necessary):
    1.traditional repulsive function is not suitable:   pow( 1/distance - 1/detected_range), value if obj function changes too quick.
+   
    2.modified the structure of APF. divided repulsive field in x and y direction, give them different weight respectively,with which the problem of local minimum can be addressed.
+   
    3.For the fomula of repulsive field, give biases  :    1/x   ->    1/x+0.3,     to solve the problem of infinity when x->0.
 
 
