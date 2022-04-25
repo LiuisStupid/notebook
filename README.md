@@ -22,6 +22,9 @@ introduce APF in objective function is difficult because we do not have terms of
    2.modified the structure of APF. divided repulsive field in x and y direction, give them different weight respectively,with which the problem of local minimum can be addressed.
    
    3.For the fomula of repulsive field, give biases  :    1/x   ->    1/x+0.3,     to solve the problem of infinity when x->0.
+   
+   
+We have only 2 controll viariables ,adaptive matrix of Q and R may worth a try, lossen the weight for (like theta) when in collision avoidance. 
 
 
 
