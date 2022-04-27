@@ -8,6 +8,9 @@ how to stabilize the postion of target person(avoiding mismatch):
 K_mean for 1-D depth information:   https://gist.github.com/lobrien/0f95b690644a862fb4dadb73afb7753b
 
 
+advantage of MPC controller: optimizer makes controll of underactuated syetem better. 
+
+
 
 
 no reference list of points possible in our situation, so we predict the movement of target based on the movement of vehicle, with which we can have a list of reference points
@@ -33,6 +36,8 @@ We have only 2 controll viariables ,adaptive matrix of Q and R may worth a try, 
 
 
 For uncertainty:
- 1. Hard for me to understand the whole content in paper and literature, there is too much content about statistics, which im not very good at, I may need to spend more     time on it .
- 2. In the paper, the data is applied to estimate safety, whose order of magnitudes is 10e-6, We do not need that high accuracy for person tracking.In another word, the application of uncertainty may not have much influence on my algorithm, and it's negligible.
+
+ 2. In the paper, the data is applied to estimate safety, whose order of magnitudes is 10e-6(15), We do not need that high accuracy for person tracking.In another word, the application of uncertainty may not have much influence on my algorithm, and it's negligible.
  3. In the paer, it's based on the conservation of conditions .For instance the distance between human joints are constant. we do not have such reference.  
+ 4. many time steps(psuedo code in 10) to obtain data of (for example distance between human and camera) - >Bootstrapping(14 Figure6), maybe impossible for our real time system?
+ 5. How to map from uncertainty directly to one dangerous failure per 10e4 hours(15)
