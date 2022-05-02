@@ -8,5 +8,5 @@ MPC_Controller:
   Inflated_radius: 1.0
   Detection_distance: 2.2
   Slack_coefficient: 100.0
-  Repulsive_coefficient: 130
+  Repulsive_coefficient: 80
   Collision_avoidance_mode: 1
