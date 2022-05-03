@@ -41,3 +41,8 @@ For uncertainty:
  3. In the paer, it's based on the conservation of conditions .For instance the distance between human joints are constant. we do not have such reference.  
  4. many time steps(psuedo code in 10) to obtain data of (for example distance between human and camera) - >Bootstrapping(14 Figure6), maybe impossible for our real time system?
  5. How to map from uncertainty directly to one dangerous failure per 10e4 hours(15)
+
+
+
+
+trying to introduce odom for some auxiliary functions.
