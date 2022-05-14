@@ -9,6 +9,8 @@ K_mean for 1-D depth information:   https://gist.github.com/lobrien/0f95b690644a
 
 how to ensure that cuda works inside docker(OSError: libcurand.so.10: cannot open shared object file: No such file or directory): https://stackoverflow.com/questions/64482976/oserror-libcurand-so-10-cannot-open-shared-object-file-no-such-file-or-direct
 
+problem(ImportError: /usr/lib/aarch64-linux-gnu/libcudnn.so.8: file too short): do not use the lastest version of l4t-ml!!!!!!!!!!!!!!!!
+
 
 advantage of MPC controller: optimizer makes controll of underactuated syetem better. 
 
