@@ -7,6 +7,8 @@ install CPPAD and IPOPT solver: https://blog.actorsfit.com/a?ID=01750-54c29171-d
 how to stabilize the postion of target person(avoiding mismatch):
 K_mean for 1-D depth information:   https://gist.github.com/lobrien/0f95b690644a862fb4dadb73afb7753b
 
+how to ensure that cuda works inside docker(OSError: libcurand.so.10: cannot open shared object file: No such file or directory): https://stackoverflow.com/questions/64482976/oserror-libcurand-so-10-cannot-open-shared-object-file-no-such-file-or-direct
+
 
 advantage of MPC controller: optimizer makes controll of underactuated syetem better. 
 
