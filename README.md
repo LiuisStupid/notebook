@@ -16,7 +16,7 @@ advantage of MPC controller: optimizer makes controll of underactuated syetem be
 
 
 
-no reference list of points possible in our situation, so we predict the movement of target based on the movement of vehicle, with which we can have a list of reference points
+no reference list of points possible in our situation, so we predict the movement of target based on the movement of vehicle, with which we can have a list of reference points( advantage: decrease the influnce of noise on point with ref list)
 
 
 we only have terms of input(velocity and angular velocity) in our objective function, so we can't get state information or set some constraints to states directly.
